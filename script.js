@@ -149,7 +149,8 @@
       window.location.reload()
     }
     async function main() {
-      await liff.init({ liffId: "1660688616-gp3JJ6rR" })
+      await liff.init({ liffId: "1660688616-gp3JJ6rR" });
+	      sendShare();
       if (liff.isLoggedIn()) {
         document.getElementById("btnShare").style.display = "block";
 		 document.getElementById("btnLogin").style.display = "none";
