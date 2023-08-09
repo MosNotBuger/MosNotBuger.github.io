@@ -150,11 +150,13 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
 
         if (minorVer === undefined) {
           alert('ShareTargetPicker was canceled in external browser')
+		 liff.closeWindow();
           return
         }
 
         if (parseInt(majorVer) >= 10 && parseInt(minorVer) >= 10 && parseInt(patchVer) > 0) {
           alert('ShareTargetPicker was canceled in LINE app')
+		 liff.closeWindow();
         }
       }
 	  
