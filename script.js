@@ -2,7 +2,10 @@
    await liff.init({ liffId: "1660688616-gp3JJ6rR" });
 console.log(liff.isApiAvailable('shareTargetPicker'));
       const result = await liff.shareTargetPicker([
-        {
+                {
+          "type": "flex",
+          "altText": "蓼蓼牌盲選麵包箱放送活動",
+          "contents":{
   "type": "bubble",
   "size": "giga",
   "hero": {
