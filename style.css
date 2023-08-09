@@ -12,9 +12,9 @@ html, body {
 }
 
 .form-structor {
-  background-color: #222;
+  background-color: transparent;
   border-radius: 15px;
-  height: 550px;
+  height: 450px;
   width: 350px;
   position: relative;
   overflow: hidden;
