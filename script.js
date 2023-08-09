@@ -3,9 +3,6 @@
 console.log(liff.isApiAvailable('shareTargetPicker'));
       const result = await liff.shareTargetPicker([
         {
-          "type": "flex",
-          "altText": "蓼蓼牌盲選麵包箱放送活動",
-          "contents":  {
   "type": "bubble",
   "size": "giga",
   "hero": {
@@ -118,6 +115,20 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
         "color": "#d5ccba",
         "align": "end",
         "weight": "bold"
+      },
+      {
+        "type": "separator",
+        "color": "#ab8554",
+        "margin": "2px"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "分享",
+          "uri": "https://liff.line.me/1660688616-gp3JJ6rR"
+        },
+        "color": "#d5ccba"
       }
     ],
     "flex": 0,
@@ -130,6 +141,7 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
       if (result) {
         //alert(`[${result.status}] Message sent!`)
 		alert(`分享完成!`)
+	      liff.closeWindow();
       } else {
         const [majorVer, minorVer, patchVer] = (liff.getLineVersion() || "").split('.');
 
