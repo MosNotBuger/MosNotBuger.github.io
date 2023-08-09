@@ -1,5 +1,6 @@
   async function sendShare() {
    await liff.init({ liffId: "1660688616-gp3JJ6rR" });
+console.log(liff.isApiAvailable('shareTargetPicker'));
       const result = await liff.shareTargetPicker([
         {
           "type": "flex",
