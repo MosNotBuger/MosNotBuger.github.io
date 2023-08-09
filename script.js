@@ -1,5 +1,5 @@
   async function sendShare() {
-
+   await liff.init({ liffId: "1660688616-gp3JJ6rR" });
       const result = await liff.shareTargetPicker([
         {
           "type": "flex",
@@ -149,7 +149,7 @@
       window.location.reload()
     }
     async function main() {
-      await liff.init({ liffId: "1660688616-gp3JJ6rR" });
+   
       if (liff.isLoggedIn()) {
         document.getElementById("btnShare").style.display = "block";
 		 document.getElementById("btnLogin").style.display = "none";
