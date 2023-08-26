@@ -43,7 +43,7 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
         "contents": [
           {
             "type": "text",
-            "text": "冷凍店取貨，運費0元！名額有限敬請把握 ✌︎ ",
+            "text": "冷凍店取貨運費0元！名額有限敬請把握 ✌︎ ",
             "wrap": true,
             "adjustMode": "shrink-to-fit",
             "weight": "bold",
