@@ -10,7 +10,7 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
   "size": "giga",
   "hero": {
     "type": "image",
-    "url": "https://i.imgur.com/DDUkllQ.jpg",
+    "url": "https://i.imgur.com/8L9iHCv.jpg",
     "size": "full",
     "action": {
       "type": "uri",
@@ -43,7 +43,16 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
         "contents": [
           {
             "type": "text",
-            "text": "現在只要：",
+            "text": "冷凍店取運費0元！名額有限敬請把握 ✌︎ ",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "weight": "bold",
+            "color": "#ab8554",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "text": "一人製作、每週出貨！",
             "wrap": true,
             "adjustMode": "shrink-to-fit",
             "weight": "bold",
@@ -51,29 +60,19 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
           },
           {
             "type": "text",
-            "text": "① 按讚追蹤 蓼蓼麵包小賣所 lùlù bakery",
+            "text": "即日起～2023/09/27 23:59",
             "wrap": true,
             "adjustMode": "shrink-to-fit",
             "weight": "bold",
-            "color": "#ab8554"
-          },
-          {
-            "type": "text",
-            "text": "② 公開分享此篇貼文",
-            "wrap": true,
-            "adjustMode": "shrink-to-fit",
-            "weight": "bold",
-            "color": "#ab8554"
-          },
-          {
-            "type": "text",
-            "text": "③ 在貼文底下tag 兩位朋友，並留言「一起來吃蓼蓼麵包8～」",
-            "wrap": true,
-            "adjustMode": "shrink-to-fit",
-            "weight": "bold",
-            "color": "#ab8554"
+            "color": "#ab8554",
+            "align": "center"
           }
         ]
+      },
+      {
+        "type": "separator",
+        "color": "#ab8554",
+        "margin": "4px"
       }
     ]
   },
@@ -91,8 +90,8 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
             "height": "sm",
             "action": {
               "type": "uri",
-              "label": "IG",
-              "uri": "https://ppt.cc/f2OTex"
+              "label": "訂閱 IG",
+              "uri": "https://www.instagram.com/_lu_lu_bakery/"
             },
             "color": "#d5ccba"
           },
@@ -102,8 +101,19 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
             "height": "sm",
             "action": {
               "type": "uri",
-              "label": "FB",
-              "uri": "https://ppt.cc/ftqBbx"
+              "label": "訂閱 FB",
+              "uri": "https://www.facebook.com/lulubakeryyy"
+            },
+            "color": "#d5ccba"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "分享",
+              "uri": "https://liff.line.me/1660688616-gp3JJ6rR"
             },
             "color": "#d5ccba"
           }
@@ -112,26 +122,27 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
         "spacing": "sm"
       },
       {
-        "type": "text",
-        "text": "即日起至08/13 23：59止",
-        "size": "xs",
-        "color": "#d5ccba",
-        "align": "end",
-        "weight": "bold"
-      },
-      {
         "type": "separator",
         "color": "#ab8554",
         "margin": "2px"
       },
       {
         "type": "button",
+        "style": "primary",
         "action": {
           "type": "uri",
-          "label": "分享",
-          "uri": "https://liff.line.me/1660688616-gp3JJ6rR"
+          "label": "立刻下單",
+          "uri": "https://myship.7-11.com.tw/general/detail/GM2308222769268"
         },
-        "color": "#d5ccba"
+        "color": "#ab8554"
+      },
+      {
+        "type": "text",
+        "text": "#急單請先pass哦不好14(´༎ຶོρ༎ຶོ`)",
+        "size": "xs",
+        "color": "#d5ccba",
+        "align": "end",
+        "weight": "bold"
       }
     ],
     "flex": 0,
