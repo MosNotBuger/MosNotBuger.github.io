@@ -14,7 +14,7 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
     "size": "full",
     "action": {
       "type": "uri",
-      "uri": "https://www.facebook.com/lulubakeryyy/posts/pfbid02RVFt1wEdmRCsLHVMsDUf9nqJJRKDLbz19rNxGHrcrppb9eg7tksoVgnbj45D962Dl"
+      "uri": "https://www.facebook.com/photo.php?fbid=201479136268863&id=100092203345309&set=a.128403900243054&source=57&refid=52"
     },
     "aspectMode": "cover",
     "aspectRatio": "20:13"
