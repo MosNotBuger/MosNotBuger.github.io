@@ -4,7 +4,7 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
       const result = await liff.shareTargetPicker([
                 {
           "type": "flex",
-          "altText": "蓼蓼牌盲選麵包箱放送活動",
+          "altText": "蓼蓼免運活動",
           "contents":{
   "type": "bubble",
   "size": "giga",
@@ -120,11 +120,6 @@ console.log(liff.isApiAvailable('shareTargetPicker'));
         ],
         "flex": 0,
         "spacing": "sm"
-      },
-      {
-        "type": "separator",
-        "color": "#ab8554",
-        "margin": "2px"
       },
       {
         "type": "button",
